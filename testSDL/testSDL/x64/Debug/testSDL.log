@@ -1,3 +1,7 @@
-﻿  deplacement.c
-C:\Users\nducrot\source\repos\testSDL\testSDL\deplacement.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  testSDL.vcxproj -> C:\Users\nducrot\source\repos\testSDL\x64\Debug\testSDL.exe
+﻿  initialisation.c
+C:\Users\nducrot\testSDL\initialisation.c(8,18): warning C4098: 'init' : fonction 'void' retournant une valeur
+C:\Users\nducrot\testSDL\initialisation.c(22,18): warning C4098: 'window' : fonction 'void' retournant une valeur
+C:\Users\nducrot\testSDL\initialisation.c(33,18): warning C4098: 'renderer' : fonction 'void' retournant une valeur
+  main.c
+  Génération de code en cours...
+  testSDL.vcxproj -> C:\Users\nducrot\testSDL\x64\Debug\testSDL.exe
