@@ -1,0 +1,3 @@
+﻿  deplacement.c
+C:\Users\nducrot\source\repos\testSDL\testSDL\deplacement.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  testSDL.vcxproj -> C:\Users\nducrot\source\repos\testSDL\x64\Debug\testSDL.exe
