@@ -1,0 +1,7 @@
+﻿  initialisation.c
+C:\Users\nducrot\shooter\initialisation.c(8,12): warning C4098: 'init' : fonction 'void' retournant une valeur
+C:\Users\nducrot\shooter\initialisation.c(20,12): warning C4098: 'window' : fonction 'void' retournant une valeur
+C:\Users\nducrot\shooter\initialisation.c(31,12): warning C4098: 'renderer' : fonction 'void' retournant une valeur
+  main.c
+  Génération de code en cours...
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier 'MSVCRTD.lib'
