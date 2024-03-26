@@ -1,0 +1,10 @@
+﻿  elements.c
+C:\Users\nducrot\projetshooter\elements.c(11,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+C:\Users\nducrot\projetshooter\elements.c(18,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+  initialisation.c
+C:\Users\nducrot\projetshooter\initialisation.c(8,18): warning C4098: 'init' : fonction 'void' retournant une valeur
+C:\Users\nducrot\projetshooter\initialisation.c(22,18): warning C4098: 'window' : fonction 'void' retournant une valeur
+C:\Users\nducrot\projetshooter\initialisation.c(33,18): warning C4098: 'renderer' : fonction 'void' retournant une valeur
+  main.c
+  Génération de code en cours...
+  testSDL.vcxproj -> C:\Users\nducrot\projetshooter\x64\Debug\testSDL.exe
