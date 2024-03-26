@@ -1,0 +1,4 @@
+﻿  elements.c
+C:\Users\nducrot\Downloads\projetshooter\elements.c(16,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+C:\Users\nducrot\Downloads\projetshooter\elements.c(23,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+  testSDL.vcxproj -> C:\Users\nducrot\Downloads\projetshooter\x64\Debug\testSDL.exe
