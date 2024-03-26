@@ -4,19 +4,20 @@
 #include "initialisation.h"
 
 int main(int argc, char* argv[]) {
-	init();
-	window();
-	renderer();
-	while (1) {
-		SDL_SetRenderDrawColor(render, 0, 0, 0, 255);
-		SDL_RenderClear(render);
-		forme();
-		vaisseau1();
-		vaisseau2();
-		reinitialisation();
-		SDL_RenderPresent(render);
-		SDL_Delay(10);
-	}
-	fermer();
-	return 0;
+
+    init();
+    window();
+    renderer();
+
+    SDL_RenderPresent(render);
+
+    // Attendre quelques secondes avant de fermer la fenêtre
+    SDL_Delay(70000);
+
+    // Fermeture de la fenêtre et de la SDL
+    SDL_RenderClear(render);
+    SDL_DestroyWindow(wind);
+    SDL_Quit();
+
+    return 0;
 }

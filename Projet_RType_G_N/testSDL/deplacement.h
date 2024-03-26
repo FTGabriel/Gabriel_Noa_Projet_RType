@@ -3,4 +3,4 @@
 #include "initialisation.h"
 
 void vaisseau1();
-void vaisseau2();
+//void vaisseau2();

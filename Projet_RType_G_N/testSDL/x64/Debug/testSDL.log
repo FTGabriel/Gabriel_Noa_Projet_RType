@@ -1,3 +1,7 @@
-﻿  deplacement.c
-C:\Users\nducrot\source\repos\testSDL\testSDL\deplacement.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  testSDL.vcxproj -> C:\Users\nducrot\source\repos\testSDL\x64\Debug\testSDL.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (testSDL.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  elements.c
+C:\Users\nducrot\source\repos\Projet_RType_G_N\testSDL\elements.c(6,26): warning C4013: 'IMG_Load' non défini(e) ; extern retournant int pris par défaut
+C:\Users\nducrot\source\repos\Projet_RType_G_N\testSDL\elements.c(10,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+C:\Users\nducrot\source\repos\Projet_RType_G_N\testSDL\elements.c(17,18): warning C4098: 'Vaisseau' : fonction 'void' retournant une valeur
+C:\Users\nducrot\source\repos\Projet_RType_G_N\testSDL\elements.c(6,18): warning C4047: 'initialisation' : les niveaux d'indirection de 'SDL_Surface *' et de 'int' sont différents
+  testSDL.vcxproj -> C:\Users\nducrot\source\repos\Projet_RType_G_N\x64\Debug\Projet_RType_G_N.exe

@@ -24,6 +24,9 @@
     <ClCompile Include="initialisation.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="elements.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

@@ -7,6 +7,6 @@ void forme();
 void window();
 void renderer();
 void vaisseau1();
-void vaisseau2();
+//void vaisseau2();
 void reinitialisation();
 void fermer();

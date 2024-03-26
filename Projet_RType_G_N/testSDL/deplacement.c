@@ -6,12 +6,15 @@
 #include "initialisation.h"
 #include <SDL_image.h>
 
-hauteur = 100;
+hauteur = 50;
 epaisseur = 20;
-yvaisseau1 = 400;
-yvaisseau2 = 300;
-x1 = 50;
-x2 = 50;
+yvaisseau1 = 250;
+//yvaisseau2 = 350;
+xvaisseau1 = 50;
+//xvaisseau2 = 50;
+xprojectile = 0;
+yprojectile = 0;
+sizeprojectile = 10;
 
 void vaisseau1() {
 	SDL_Event event;
@@ -28,46 +31,49 @@ void vaisseau1() {
 				}
 			}
 			if (event.key.keysym.sym == SDLK_LEFT) {
-				if (x1 + epaisseur >= 75) {
-					x1 -= 20;
+				if (xvaisseau1 + epaisseur >= 75) {
+					xvaisseau1 -= 20;
 				}
 			}
 			if (event.key.keysym.sym == SDLK_RIGHT) {
-				if (x1 + epaisseur <= 700) {
-					x1 += 20;
+				if (xvaisseau1 + epaisseur <= 700) {
+					xvaisseau1 += 20;
 				}
+			}
+			if (event.key.keysym.sym == SDLK_SPACE) {
+				
 			}
 		}
 	}
 }
 
-void vaisseau2() {
-	SDL_Event event;
-	while (SDL_PollEvent(&event)) {
-		if (event.type == SDL_KEYDOWN) {
-			if (event.key.keysym.sym == SDLK_z) {
-				if (yvaisseau2 + hauteur >= 100) {
-					yvaisseau2 -= 30;
-				}
-			}
-			if (event.key.keysym.sym == SDLK_s) {
-				if (yvaisseau2 + hauteur <= 600) {
-					yvaisseau2 += 30;
-				}
-			}
-			if (event.key.keysym.sym == SDLK_q) {
-				if (x2 + epaisseur >= 75) {
-					x2 -= 20;
-				}
-			}
-			if (event.key.keysym.sym == SDLK_d) {
-				if (x2 + epaisseur <= 700) {
-					x2 += 20;
-				}
-			}
-		}
-	}
-}
+//void vaisseau2() {
+//	SDL_Event event;
+//	while (SDL_PollEvent(&event)) {
+//		if (event.type == SDL_KEYDOWN) {
+//			if (event.key.keysym.sym == SDLK_z) {
+//				if (yvaisseau2 + hauteur >= 100) {
+//					yvaisseau2 -= 30;
+//				}
+//			}
+//			if (event.key.keysym.sym == SDLK_s) {
+//				if (yvaisseau2 + hauteur <= 600) {
+//					yvaisseau2 += 30;
+//				}
+//			}
+//			if (event.key.keysym.sym == SDLK_q) {
+//				if (xvaisseau2 + epaisseur >= 75) {
+//					xvaisseau2 -= 20;
+//				}
+//			}
+//			if (event.key.keysym.sym == SDLK_d) {
+//				if (xvaisseau2 + epaisseur <= 700) {
+//					xvaisseau2 += 20;
+//				}
+//			}
+//		}
+//	}
+//}
 
 void reinitialisation() {
 

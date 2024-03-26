@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="deplacement.c" />
+    <ClCompile Include="elements.c" />
     <ClCompile Include="initialisation.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>

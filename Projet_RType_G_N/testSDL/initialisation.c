@@ -9,7 +9,7 @@ void init() {
 }
 
 void window() {
-	wind = SDL_CreateWindow("Pong",
+	wind = SDL_CreateWindow("RType",
 		SDL_WINDOWPOS_UNDEFINED,
 		SDL_WINDOWPOS_UNDEFINED,
 		800, 600, SDL_WINDOW_SHOWN);
@@ -32,13 +32,13 @@ void renderer() {
 }
 
 void forme() {
-	SDL_Rect vaisseau1 = { x1,yvaisseau1,epaisseur,hauteur };
+	SDL_Rect vaisseau1 = { xvaisseau1,yvaisseau1,epaisseur,hauteur };
 	SDL_SetRenderDrawColor(render, 255, 255, 255, 255);
 	SDL_RenderFillRect(render, &vaisseau1);
 
-	SDL_Rect vaisseau2 = { x2,yvaisseau2,epaisseur,hauteur };
-	SDL_SetRenderDrawColor(render, 255, 255, 255, 255);
-	SDL_RenderFillRect(render, &vaisseau2);
+	//SDL_Rect vaisseau2 = { xvaisseau2,yvaisseau2,epaisseur,hauteur };
+	//SDL_SetRenderDrawColor(render, 255, 255, 255, 255);
+	//SDL_RenderFillRect(render, &vaisseau2);
 }
 
 void fermer() {
