@@ -1,0 +1,16 @@
+#pragma once
+int xennemis;
+int yennemis;
+int largeurennemis;
+int hauteurennemis;
+int largeurennemis2;
+int hauteurennemis2;
+int waitTime;
+int vitesseEnnemis;
+int tempsEntreEnnemis;
+int tempsEntreEnnemis2;
+int dernierappel;
+int dernierappel2;
+int vitesseEnnemis2;
+int xennemis2;
+int yennemis2;
